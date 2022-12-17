@@ -39,7 +39,7 @@ module.exports = {
         unnamedComponents: "arrow-function",
       },
     ],
-    "max-len": [2, {}],
+    "max-len": [2, 1050],
     "no-multiple-empty-lines": [
       "error",
       {
