@@ -41,12 +41,12 @@ const Feedback = () => (
         />
         <motion.div
           variants={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[11%] top-[3%] cursor-pointer"
+          className="lg:block hidden absolute -left-[16%] top-0 cursor-pointer"
         >
           <img
             src="stamp.png"
             alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
+            className="w-[255px] h-[255px] object-contain"
           />
         </motion.div>
       </motion.div>

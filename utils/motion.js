@@ -4,8 +4,6 @@ export const navVariants = {
     y: -50,
     transition: {
       type: 'spring',
-      stiffness: 300,
-      damping: 140,
     },
   },
   show: {
@@ -13,8 +11,8 @@ export const navVariants = {
     y: 0,
     transition: {
       type: 'spring',
-      stiffness: 80,
-      delay: 1,
+      stiffness: 100,
+      delay: 0.5,
     },
   },
 };
