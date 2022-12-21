@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { socials } from "../constants";
-import { footerVariants } from "../utils/motion";
+import { footerVariants, ctaGestures } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -18,7 +18,8 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter the Metaverse
         </h4>
-        <button
+        <motion.button
+          {...ctaGestures}
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
         >
@@ -30,7 +31,7 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white">
             ENTER METAVERSE
           </span>
-        </button>
+        </motion.button>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
@@ -41,7 +42,8 @@ const Footer = () => (
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
+              <motion.img
+                {...ctaGestures}
                 key={social.name}
                 src={social.url}
                 alt={social.name}
