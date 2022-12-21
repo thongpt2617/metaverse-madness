@@ -29,33 +29,33 @@ const World = () => (
         className="relative mt-[68px] flex w-full h-full"
       >
         <img
-          src="/map.png"
+          src="map.png"
           alt="map"
           className="w-full h-full object-contain"
         />
         <img
           className="absolute lg:bottom-20 bottom-6 lg:right-28 right-4 lg:w-[200px] w-[40px]"
-          src="/people-01.png"
+          src="people-01.png"
           alt="people"
         />
         <img
           className="absolute lg:top-0 top-4 lg:left-[48px] left-8 lg:w-[200px] w-[40px]"
-          src="/people-02.png"
+          src="people-02.png"
           alt="people"
         />
         <img
           className="absolute lg:bottom-40 bottom-14 right-[45%] lg:w-[200px] w-[40px]"
-          src="/people-03.png"
+          src="people-03.png"
           alt="people"
         />
         <img
           className="absolute lg:bottom-16 bottom-8 left-[12%] lg:w-[400px] w-[80px]"
-          src="/group-01.png"
+          src="group-01.png"
           alt="group"
         />
         <img
           className="absolute lg:bottom-52 bottom-20 right-[16%] lg:w-[440px] w-[100px]"
-          src="/group-02.png"
+          src="group-02.png"
           alt="group"
         />
       </motion.div>
