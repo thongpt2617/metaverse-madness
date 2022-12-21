@@ -1,7 +1,7 @@
 {
   "name": "metaverse13",
   "version": "0.1.0",
-  "homepage": "https://thongpt2617.github.io/metaverse-madness/",
+  "homepage": "https://thongpt2617.github.io/metaverse-madness",
   "private": true,
   "scripts": {
     "dev": "next dev",
