@@ -1,6 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import searchImg from "../public/search.svg";
+import menuImg from "../public/menu.svg";
 import styles from "../styles";
 import { navVariants, ctaGestures } from "../utils/motion";
 
@@ -14,8 +17,8 @@ const Navbar = () => (
     <div className="absolute top-0 w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <motion.div {...ctaGestures} className="cursor-pointer z-10">
-        <img
-          src="search.svg"
+        <Image
+          src={searchImg}
           alt="Search"
           className="w-[24px] h-[24px] object-contain "
         />
@@ -24,8 +27,8 @@ const Navbar = () => (
         METAVERSUS
       </h2>
       <motion.div {...ctaGestures} className="cursor-pointer">
-        <img
-          src="menu.svg"
+        <Image
+          src={menuImg}
           alt="Search"
           className="w-[24px] h-[24px] object-contain"
         />

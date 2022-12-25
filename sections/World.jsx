@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import mapImg from "../public/map.png";
 import styles from "../styles";
 import { TypingText, TitleText } from "../components";
 import { staggerContainer, fadeIn, hoverableGestures } from "../utils/motion";
@@ -28,7 +30,11 @@ const World = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         className="relative mt-[68px] flex w-full h-full"
       >
-        <img src="map.png" alt="map" className="w-full h-full object-contain" />
+        <Image
+          src={mapImg}
+          alt="map"
+          className="w-full h-full object-contain"
+        />
         <motion.img
           {...hoverableGestures}
           className="absolute lg:bottom-20 bottom-6 lg:right-28 right-4 lg:w-[200px] w-[40px]"
